@@ -2,6 +2,8 @@ Supported tags and respective `Dockerfile` links
 ================================================
 
 - [`1.11.1`, `1.11`(*1.11/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.11/Dockerfile)
+- [`1.10.3`, `1.10`(*1.11/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.10/Dockerfile)
+- [`1.9.5`, `1.9`(*1.11/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.9/Dockerfile)
 
 What is Linshare?
 =================
@@ -34,8 +36,8 @@ You can expose the above related settings through the following environment vari
 |---------------------------|--------------------------------------------------------------------------------------------------------------|
 |SMTP_HOST                  |smtp.linshare.com                                                                                             |
 |SMTP_PORT                  |25                                                                                                            |
-|SMTP_USER                  |user                                                                                                          |
-|SMTP_PASS                  |password                                                                                                      |
+|SMTP_USER                  |                                                                                                              |
+|SMTP_PASS                  |                                                                                                              |
 |POSTGRES_USER              |user                                                                                                          |
 |POSTGRES_PASS              |password                                                                                                      |
 |POSTGRES_URL               |jdbc:postgresql://localhost:5432/linshare                                                                     |
