@@ -1,7 +1,7 @@
 Supported tags and respective `Dockerfile` links
 ================================================
 
-- [`1.11`, `1.11`(*1.11/Dockerfile*)](https://ci.open-paas.org/stash/projects/SAAS/repos/linshare-dockerfile/blob/BLOB_ID/Dockerfile)
+- [`1.11.1`, `1.11`(*1.11/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.11/Dockerfile)
 
 What is Linshare?
 =================
