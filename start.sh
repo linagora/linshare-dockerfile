@@ -10,17 +10,17 @@ exit 1
 # OPENSMTPD SETTINGS
 smtp_auth_needed=false
 
-[ -z "$SMTP_HOST" ]	   || 	smtp_host="$SMTP_HOST"
-[ -z "$SMTP_PORT" ]    ||	smtp_port="$SMTP_PORT"
-[ -z "$SMTP_USER" ]    || 	smtp_user="$SMTP_USER"
-[ -z "$SMTP_PASS" ]    || 	smtp_password="$SMTP_PASS"
+[ -z "$SMTP_HOST" ]    || smtp_host="$SMTP_HOST"
+[ -z "$SMTP_PORT" ]    || smtp_port="$SMTP_PORT"
+[ -z "$SMTP_USER" ]    || smtp_user="$SMTP_USER"
+[ -z "$SMTP_PASS" ]    || smtp_password="$SMTP_PASS"
 [[ ( -z "$SMTP_USER" ) || ( -z "$SMTP_PASS" ) ]] || smtp_auth_needed=true
 
 # POSTGRESQL SETTINGS
 
-[ -z "$POSTGRES_USER" ] ||	postgres_username="$POSTGRES_USER"
-[ -z "$POSTGRES_PASS" ] ||	postgres_password="$POSTGRES_PASS"
-[ -z "$POSTGRES_URL" ]  ||	postgres_url="$POSTGRESURL_URL"
+[ -z "$POSTGRES_USER" ] || postgres_username="$POSTGRES_USER"
+[ -z "$POSTGRES_PASS" ] || postgres_password="$POSTGRES_PASS"
+[ -z "$POSTGRES_URL" ]  || postgres_url="$POSTGRESURL_URL"
 
 # CLAMD SETTINGS
 
