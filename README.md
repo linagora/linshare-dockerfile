@@ -2,8 +2,8 @@ Supported tags and respective `Dockerfile` links
 ================================================
 
 - [`1.11.1`, `1.11`(*1.11/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.11/Dockerfile)
-- [`1.10.3`, `1.10`(*1.11/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.10/Dockerfile)
-- [`1.9.5`, `1.9`(*1.11/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.9/Dockerfile)
+- [`1.10.3`, `1.10`(*1.10/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.10/Dockerfile)
+- [`1.9.5`, `1.9`(*1.9/Dockerfile*)](https://github.com/linagora/linshare-dockerfile/blob/1.9/Dockerfile)
 
 What is Linshare?
 =================
